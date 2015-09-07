@@ -80,5 +80,3 @@ joker/
 ### Gustavo Melo - 2015
 
 
-
-

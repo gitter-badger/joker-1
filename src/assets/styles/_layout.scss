@@ -1,0 +1,62 @@
+
+//------ intro ------//
+section#intro {
+	@include full-page;
+	background: #584b6c;
+  	background-image: linear-gradient(to bottom right, #584b6c, #584b7c);
+	.content{
+		@include content-center();
+
+		#logo {
+			position:absolute;
+			width:30%;
+			left:50%;
+			margin-left:-15%;
+			top:50%;
+			margin-top:-5%;
+			z-index:2000;
+			img {
+				width:100%;
+			}
+		}
+
+		a#get-started {
+			position:absolute;
+			left:0;
+			bottom:0;
+			color:#fff;
+			background:rgba(0,0,0,.1);
+			font-size:.9rem;
+			width:100%;
+			padding:1rem .8rem;
+			font-family: 'Maven Pro', sans-serif;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			cursor:pointer;
+			text-align: center;
+			font-weight:400;
+		}
+
+	} 
+} // end section#intro
+
+
+
+//------ features ------//
+section#features {
+	@include full-page;
+	background:#fff;
+	
+	.content{
+		@include content-center;
+		min-height:750px;
+
+		
+
+
+		
+	} 
+} // end section#features
+
+
+
